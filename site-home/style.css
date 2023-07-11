@@ -3,7 +3,6 @@
 }
 header, main, footer {
     margin: 3px;
-    background-color: #a1a1a1;
 }
 header, main{
     display: flex;
@@ -20,15 +19,31 @@ nav {
 a {
     text-decoration: none;
 }
-main {
-    display: flex;
+main article {
+    display: block;
 }
-h1, p {
-    flex: 1 1 100px;
-    align-items: left;
+main article {
+    margin-top: 10%;
+    padding: 70px;
 }
-main img {
-    flex: 1 1 100px;
-    position: right;
-    right: 0;
+#img {
+    float: right;
+}
+#imgtwitter {
+    float: right;
+    margin: 5px;
+    max-width: 23px;
+}
+#imglinkedin {
+    float: right;
+    margin: 5px;
+    max-width: 20px;
+}
+#imggithub {
+    float: right;
+    margin: 5px;
+    max-width: 40px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
 }
