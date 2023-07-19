@@ -1,50 +1,45 @@
- * {
-    margin: 0;
+body{
+    background-color: darkgray;
+    margin: 0%;
     padding: 0%;
+    height: 100%;
+    width: 100%;
 }
-header, main, footer {
-    margin: 3px;
+header, main, footer{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
 }
-header, main{
+header{
+    height: 10%;
+}
+main{
+    height: 700px;
+}
+main article{
+    width: 50%;
+    float: left;
+}
+main img{
+    width: 50%;
+    float: right;
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
+footer{
     display: flex;
+    justify-content: space-evenly;
+    height: 50px;
 }
-header #logo{
-    flex: 1 1 500px;
-    align-items: left;
+footer .item{
+    width: 4%;
 }
-nav {
-    flex: 1 1 100px;
-    align-items: right;    
-}
-a {
-    text-decoration: none;
-}
-main article {
-    display: block;
-    
-}
-main article {
-    margin-top: 10%;
-    padding: 70px;
-}
-img .lado {
-    float: right;
-}
-#imgtwitter {
-    float: right;
-    margin: 5px;
-    max-width: 23px;
-}
-#imglinkedin {
-    float: right;
-    margin: 5px;
+footer
+#imgtwitter, #imggithub, #imglinkedin{
     max-width: 20px;
-}
-#imggithub {
-    float: right;
-    margin: 5px;
-    max-width: 40px;
-    max-height: 40px;
+    max-height: 20px;
     width: auto;
     height: auto;
 }
