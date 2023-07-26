@@ -11,7 +11,12 @@ header, main, footer{
     margin: 10px;
 }
 header{
-    height: 10%;
+    height: 30px;
+    display: flexbox;
+}
+nav a{
+    text-decoration: none;
+    float: right;
 }
 main{
     height: 700px;
@@ -19,6 +24,7 @@ main{
 main article{
     width: 50%;
     float: left;
+    padding: 10px 60px;
 }
 main img{
     width: 50%;
@@ -33,7 +39,7 @@ footer{
     justify-content: space-evenly;
     height: 50px;
 }
-footer .item{
+footer a{
     width: 4%;
 }
 footer
