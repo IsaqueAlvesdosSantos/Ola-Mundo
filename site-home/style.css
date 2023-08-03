@@ -1,0 +1,39 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(73, 71, 71);
+}
+header, main, footer{
+    margin: 10px;
+    padding: 5px 5px;
+    background-color: lightgray;
+}
+header{
+    height: 30px;
+}
+nav{
+    float: right;
+}
+main{
+    height: 800px;
+}
+section{
+    margin: 10px;
+    background-color: white;
+}
+#um{
+    width: 45%;
+    height: 90%;
+    float: left;
+}
+#dois{
+    width: 50%;
+    height: 90%;
+    float: right;
+}
+img{
+
+}
+footer{
+    height: 30px;
+}
