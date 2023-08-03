@@ -10,12 +10,15 @@ header, main, footer{
 }
 header{
     height: 30px;
+    position: fixed;
+    right: 50px;
+    padding: 10px;
 }
 nav{
-    float: right;
+
 }
-main{
-    height: 800px;
+#inicio, #sobre, #serv, #port{
+    height: 900px;
 }
 section{
     margin: 10px;
@@ -36,4 +39,23 @@ img{
 }
 footer{
     height: 30px;
+}
+#zap{
+    max-width: 80px;
+    max-height: 80px;
+    position: fixed;
+    right: 73px;
+    bottom: 20px;
+    background: #0d7b00;
+    z-index: 999;
+    padding: 30px;
+    border-radius: 50px;
+    transition: .5s;
+}
+#zap:hover{
+    right: 0;
+    bottom: 0;
+    border-radius: 100px 0px 0px 0px;
+    padding: 70px;
+    transition: .5s;
 }
