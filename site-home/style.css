@@ -11,14 +11,23 @@ header, main, footer{
 header{
     height: 30px;
     position: fixed;
-    right: 50px;
+    right: 10px;
     padding: 10px;
 }
 nav{
-
+    padding: 3px;
+}
+nav > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+nav > a:hover{
+    text-decoration: underline;
 }
 #inicio, #sobre, #serv, #port{
-    height: 900px;
+    height: 800px;
 }
 section{
     margin: 10px;
