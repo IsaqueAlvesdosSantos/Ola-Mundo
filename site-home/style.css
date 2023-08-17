@@ -1,3 +1,4 @@
+/* 
 body{
     margin: 0%;
     padding: 0%;
@@ -29,9 +30,13 @@ nav > a:hover{
 #inicio, #sobre, #serv, #port{
     height: 800px;
 }
+section article{
+    margin-top: 30%;
+    margin-left: 15%;
+}
 section{
     margin: 10px;
-    background-color: white;
+    background-color: ;
 }
 #um{
     width: 45%;
@@ -44,7 +49,7 @@ section{
     float: right;
 }
 img{
-
+    float: right;
 }
 footer{
     height: 30px;
@@ -67,4 +72,70 @@ footer{
     border-radius: 100px 0px 0px 0px;
     padding: 70px;
     transition: .5s;
+}
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0%;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px 0px;
+    box-shadow: 4px 4px 9px 0px rgb(0, 0, 0, 0.384);
+}
+nav{
+    border-radius: 20px;
+    background-color: rgb(105, 105, 105);
+    padding: 3px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px 0px;
+    box-shadow: 4px 4px 9px 0px rgb(0, 0, 0, 0.384);
+}
+article{
+    background-color: lightgray;
+    padding: 5px;
+}
+article > aside{
+    background-color: dimgray;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+footer > p{
+    margin: 0px;
+}
+div#bola{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+img{
+    margin-left: 40px;
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 50%;
 }
